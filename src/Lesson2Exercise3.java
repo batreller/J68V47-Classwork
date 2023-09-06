@@ -23,6 +23,6 @@ public class Lesson2Exercise3 {
         System.out.format("%-" + itemNameWidth + "s £%.2f%n", item1Name, item1Price);
         System.out.format("%-" + itemNameWidth + "s £%.2f%n", item2Name, item2Price);
         System.out.format("%-" + itemNameWidth + "s £%.2f%n", item3Name, item3Price);
-        System.out.format("SUBTOTAL             £%.2f", (item1Price + item2Price + item3Price));
+        System.out.format("SUBTOTAL                       £%.2f", (item1Price + item2Price + item3Price));
     }
 }
